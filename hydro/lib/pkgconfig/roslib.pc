@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: roslib
+Description: Description of roslib
+Version: 1.10.11
+Cflags: -I/opt/ros/hydro/include
+Libs: -L/opt/ros/hydro/lib -lroslib
+Requires: 

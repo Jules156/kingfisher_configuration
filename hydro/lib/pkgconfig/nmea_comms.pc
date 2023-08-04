@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: nmea_comms
+Description: Description of nmea_comms
+Version: 0.0.3
+Cflags: -I/opt/ros/hydro/include
+Libs: -L/opt/ros/hydro/lib 
+Requires: 

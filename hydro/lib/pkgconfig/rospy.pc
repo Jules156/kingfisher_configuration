@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: rospy
+Description: Description of rospy
+Version: 1.10.12
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: 

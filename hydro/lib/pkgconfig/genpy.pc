@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: genpy
+Description: Description of genpy
+Version: 0.4.17
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: genmsg

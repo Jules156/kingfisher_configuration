@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: app_manager
+Description: Description of app_manager
+Version: 1.0.3
+Cflags: -I/opt/ros/hydro/include
+Libs: -L/opt/ros/hydro/lib 
+Requires: rospy roslaunch rosgraph rosunit

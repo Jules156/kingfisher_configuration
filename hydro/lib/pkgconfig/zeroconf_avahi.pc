@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: zeroconf_avahi
+Description: Description of zeroconf_avahi
+Version: 0.2.3
+Cflags: -I/opt/ros/hydro/include -I/usr/include
+Libs: -L/opt/ros/hydro/lib -lzeroconf_avahi -l:/usr/lib/libboost_thread-mt.so -lpthread
+Requires: rosconsole roscpp zeroconf_msgs

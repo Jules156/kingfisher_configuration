@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: roscpp
+Description: Description of roscpp
+Version: 1.10.12
+Cflags: -I/opt/ros/hydro/include -I/usr/include
+Libs: -L/opt/ros/hydro/lib -lroscpp -lpthread -l:/usr/lib/libboost_signals-mt.so -l:/usr/lib/libboost_filesystem-mt.so -l:/usr/lib/libboost_system-mt.so
+Requires: cpp_common message_runtime rosconsole roscpp_serialization roscpp_traits rosgraph_msgs rostime std_msgs xmlrpcpp

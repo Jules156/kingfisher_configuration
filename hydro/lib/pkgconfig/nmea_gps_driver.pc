@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: nmea_gps_driver
+Description: Description of nmea_gps_driver
+Version: 0.3.2
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: 

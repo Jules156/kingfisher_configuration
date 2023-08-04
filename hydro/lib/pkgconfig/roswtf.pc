@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: roswtf
+Description: Description of roswtf
+Version: 1.10.12
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: 

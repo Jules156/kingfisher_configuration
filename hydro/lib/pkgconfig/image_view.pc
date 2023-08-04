@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: image_view
+Description: Description of image_view
+Version: 1.11.11
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: 

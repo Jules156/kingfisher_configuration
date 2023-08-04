@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: kdl_conversions
+Description: Description of kdl_conversions
+Version: 1.10.8
+Cflags: -I/opt/ros/hydro/include -I/usr/include/eigen3
+Libs: -L/opt/ros/hydro/lib -lkdl_conversions -l:/opt/ros/hydro/lib/liborocos-kdl.so.1.3.0
+Requires: geometry_msgs

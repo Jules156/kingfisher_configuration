@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: rosclean
+Description: Description of rosclean
+Version: 1.10.11
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: 

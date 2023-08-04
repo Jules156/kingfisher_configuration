@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: std_srvs
+Description: Description of std_srvs
+Version: 1.10.12
+Cflags: -I/opt/ros/hydro/include
+Libs: -L/opt/ros/hydro/lib 
+Requires: message_runtime

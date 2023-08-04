@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: mk
+Description: Description of mk
+Version: 1.10.11
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: actionlib
+Description: Description of actionlib
+Version: 1.10.3
+Cflags: -I/opt/ros/hydro/include -I/usr/include
+Libs: -L/opt/ros/hydro/lib -lactionlib -l:/usr/lib/libboost_thread-mt.so -lpthread
+Requires: actionlib_msgs message_runtime roscpp std_msgs

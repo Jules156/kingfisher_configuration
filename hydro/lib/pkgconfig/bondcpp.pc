@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: bondcpp
+Description: Description of bondcpp
+Version: 1.7.16
+Cflags: -I/opt/ros/hydro/include -I/usr/include
+Libs: -L/opt/ros/hydro/lib -lbondcpp -l:/usr/lib/i386-linux-gnu/libuuid.so
+Requires: bond roscpp smclib

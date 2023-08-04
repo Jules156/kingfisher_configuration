@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: rosmake
+Description: Description of rosmake
+Version: 1.10.11
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: 

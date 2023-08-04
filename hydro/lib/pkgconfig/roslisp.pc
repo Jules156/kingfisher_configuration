@@ -1,0 +1,8 @@
+prefix=/opt/ros/hydro
+
+Name: roslisp
+Description: Description of roslisp
+Version: 1.9.18
+Cflags: 
+Libs: -L/opt/ros/hydro/lib 
+Requires: 
