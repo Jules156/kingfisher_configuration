@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="kingfisher_node" pkg="kingfisher_node" type="kingfisher_node">
+  <param name="rotation_scale" type="double" value="0.6" />
+  <param name="fwd_speed_scale" type="double" value="1.0" />
+  <param name="rev_speed_scale" type="double" value="1.0" />
+  <param name="left_max" type="double" value="1.0" />
+  <param name="right_max" type="double" value="1.0" />
+</node>
+\endverbatim
+
