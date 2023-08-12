@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: topic_tools
-Description: Description of topic_tools
-Version: 1.10.12
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib -ltopic_tools
-Requires: message_runtime rosconsole roscpp std_msgs xmlrpcpp

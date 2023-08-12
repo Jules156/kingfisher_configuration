@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: tf2_py
-Description: Description of tf2_py
-Version: 0.4.12
-Cflags: 
-Libs: -L/opt/ros/hydro/lib 
-Requires: rospy tf2

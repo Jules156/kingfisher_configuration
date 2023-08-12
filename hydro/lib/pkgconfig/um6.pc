@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: um6
-Description: Description of um6
-Version: 0.0.2
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib 
-Requires: message_runtime

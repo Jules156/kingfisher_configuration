@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: clearpath_base
-Description: Description of clearpath_base
-Version: 0.4.4
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib 
-Requires: geometry_msgs std_msgs message_runtime

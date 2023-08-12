@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: rostest
-Description: Description of rostest
-Version: 1.10.12
-Cflags: -I/opt/ros/hydro/include -I/usr/include
-Libs: -L/opt/ros/hydro/lib -l:/usr/lib/libboost_system-mt.so -l:/usr/lib/libboost_thread-mt.so -lpthread
-Requires: 

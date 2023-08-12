@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: camera_info_manager
-Description: Description of camera_info_manager
-Version: 1.11.5
-Cflags: -I/opt/ros/hydro/include -I/usr/include
-Libs: -L/opt/ros/hydro/lib -lcamera_info_manager
-Requires: roscpp sensor_msgs

@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: serial
-Description: Description of serial
-Version: 1.1.7
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib -lserial
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: pluginlib
-Description: Description of pluginlib
-Version: 1.9.24
-Cflags: -I/opt/ros/hydro/include -I/usr/include
-Libs: -L/opt/ros/hydro/lib -ltinyxml -l:/usr/lib/libboost_filesystem-mt.so -l:/usr/lib/libboost_system-mt.so
-Requires: class_loader rosconsole roslib

@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: cpp_common
-Description: Description of cpp_common
-Version: 0.4.4
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib -lcpp_common -l:/opt/ros/hydro/lib/libconsole_bridge.so
-Requires: 

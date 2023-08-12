@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: self_test
-Description: Description of self_test
-Version: 1.8.8
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib 
-Requires: diagnostic_msgs diagnostic_updater roscpp

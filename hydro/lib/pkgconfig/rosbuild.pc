@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: rosbuild
-Description: Description of rosbuild
-Version: 1.10.11
-Cflags: 
-Libs: -L/opt/ros/hydro/lib 
-Requires: 

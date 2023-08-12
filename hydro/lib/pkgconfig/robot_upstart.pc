@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: robot_upstart
-Description: Description of robot_upstart
-Version: 0.0.7
-Cflags: 
-Libs: -L/opt/ros/hydro/lib 
-Requires: 

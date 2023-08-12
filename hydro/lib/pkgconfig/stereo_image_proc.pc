@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: stereo_image_proc
-Description: Description of stereo_image_proc
-Version: 1.11.11
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib -lstereo_image_proc
-Requires: image_geometry image_proc sensor_msgs stereo_msgs

@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: tf2
-Description: Description of tf2
-Version: 0.4.12
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib -ltf2 -l:/opt/ros/hydro/lib/libconsole_bridge.so
-Requires: geometry_msgs tf2_msgs rostime

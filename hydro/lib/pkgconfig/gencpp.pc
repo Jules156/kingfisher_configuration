@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: gencpp
-Description: Description of gencpp
-Version: 0.4.17
-Cflags: 
-Libs: -L/opt/ros/hydro/lib 
-Requires: genmsg

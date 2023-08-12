@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: rosserial_msgs
-Description: Description of rosserial_msgs
-Version: 0.5.6
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib 
-Requires: message_runtime

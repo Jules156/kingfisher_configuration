@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: tf
-Description: Description of tf
-Version: 1.10.8
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib -ltf
-Requires: geometry_msgs message_filters message_runtime roscpp sensor_msgs std_msgs tf2_ros rosconsole

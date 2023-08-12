@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: image_proc
-Description: Description of image_proc
-Version: 1.11.11
-Cflags: -I/opt/ros/hydro/include -I/opt/ros/hydro/include/opencv
-Libs: -L/opt/ros/hydro/lib -limage_proc -l:/opt/ros/hydro/lib/libopencv_core.so.2.4.9 -l:/opt/ros/hydro/lib/libopencv_highgui.so.2.4.9 -l:/opt/ros/hydro/lib/libopencv_imgproc.so.2.4.9
-Requires: image_geometry roscpp sensor_msgs

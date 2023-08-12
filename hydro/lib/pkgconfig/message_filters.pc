@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: message_filters
-Description: Description of message_filters
-Version: 1.10.12
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib -lmessage_filters
-Requires: roscpp xmlrpcpp rosconsole

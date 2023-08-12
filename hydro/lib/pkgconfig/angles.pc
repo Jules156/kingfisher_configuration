@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: angles
-Description: Description of angles
-Version: 1.9.9
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib 
-Requires: 

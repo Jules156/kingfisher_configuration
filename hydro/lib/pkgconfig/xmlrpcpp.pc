@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: xmlrpcpp
-Description: Description of xmlrpcpp
-Version: 1.10.12
-Cflags: -I/opt/ros/hydro/include
-Libs: -L/opt/ros/hydro/lib -lxmlrpcpp
-Requires: cpp_common

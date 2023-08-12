@@ -1,8 +1,0 @@
-prefix=/opt/ros/hydro
-
-Name: class_loader
-Description: Description of class_loader
-Version: 0.2.5
-Cflags: -I/opt/ros/hydro/include -I/usr/include
-Libs: -L/opt/ros/hydro/lib -lclass_loader -l:/usr/lib/libboost_thread-mt.so -lpthread -l:/usr/lib/libboost_system-mt.so -l:/usr/lib/libPocoFoundation.so -ldl -l:/opt/ros/hydro/lib/libconsole_bridge.so
-Requires: 
