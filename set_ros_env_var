@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export ROS_IP=`ifconfig wlan0 | grep -o 'inet addr:[^ ]*' | cut -d: -f2`
+export ROS_MASTER_URI=http://$ROS_IP:11311
+export ROS_LOG_DIR=/tmp
+
