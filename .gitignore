@@ -1,0 +1,12 @@
+build
+msg_gen
+*.pyc
+*.swp
+*.cfgc
+kingfisher/kingfisher_bringup/bin/vserial
+kingfisher/kingfisher_msgs/src/kingfisher_msgs
+kingfisher/kingfisher_node/src/kingfisher_node/cfg/
+kingfisher/kingfisher_node/cfg/cpp/
+kingfisher/*.git
+kingfisher/*.gitignore
+bags

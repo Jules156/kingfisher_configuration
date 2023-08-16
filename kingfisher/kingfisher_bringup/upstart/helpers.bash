@@ -30,7 +30,6 @@ function install_job {
 
   echo "Installing $robot-$job using network interface $interface, port $portnum."
   
-  cp $stackPath/mklaunch /usr/sbin/mklaunch
   do_subs $stackPath/start /usr/sbin/$robot-$job-start $interface $portnum $robot $job $release $user
   chmod +x /usr/sbin/$robot-$job-start
 
@@ -38,11 +37,10 @@ function install_job {
   chmod +x /usr/sbin/$robot-$job-stop
 
   do_subs $stackPath/job.conf /etc/init/$robot-$job.conf $interface $portnum $robot $job $release $user
+  cp $stackPath/mklaunch /usr/sbin/mklaunch
 
   # Copy launch files into /etc/ros/
   launch_path=/etc/ros/$release/$robot/$job.d
   mkdir -p $launch_path 
   cp `rospack find ${robot}_bringup`/launch/$job/* $launch_path
 }
-
-

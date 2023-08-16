@@ -17,8 +17,8 @@ source /opt/ros/${release}/setup.bash
 pushd `rospack find ${robot}_bringup`/upstart > /dev/null
 
 install_udev_rules
-install_job core eth0 11311
-# install_job interface wlan0 11311
+install_job core wlan0 11311
+# install_job core eth0 11311
 
 # Configure ublox GPS.
 ublox_hex=`rospack find ${robot}_bringup`/config/ublox.hex
