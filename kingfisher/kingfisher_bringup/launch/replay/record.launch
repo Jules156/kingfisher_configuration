@@ -1,14 +1,6 @@
 <launch>
 
   <arg name="bagf"/>
-  <arg name="topic" default=""/>
-
-  <group if="$(arg topic) == ''">
-    <node pkg="rosbag" type="record" name="recorder" ns="replay" args="-a -O /home/kingfisler/logs/$(arg bagf)"/>
-  </group>
-
-  <group unless="$(arg topic) == ''">
-    <node pkg="rosbag" type="record" name="recorder" ns="replay" args="$(arg topic) -O /home/kingfisler/logs/$(arg bagf)"/>
-  </group>
+  <node pkg="rosbag" type="record" name="recorder" ns="replay" args="-a -O /home/kingfisler/logs/$(arg bagf)"/>
 
 </launch>
