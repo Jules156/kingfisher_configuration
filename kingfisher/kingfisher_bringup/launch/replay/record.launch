@@ -3,11 +3,11 @@
   <arg name="bagf"/>
   <arg name="topic" default=""/>
 
-  <group if="$(arg namespace)">
+  <group if="$(arg topic)">
     <node pkg="rosbag" type="record" name="recorder" ns="replay" args="$(arg topic) -O /home/kingfisler/logs/$(arg bagf)"/>
   </group>
 
-  <group unless="$(arg namespace)">
+  <group unless="$(arg topic)">
     <node pkg="rosbag" type="record" name="recorder" ns="replay" args="-a -O /home/kingfisler/logs/$(arg bagf)"/>
   </group>
 
