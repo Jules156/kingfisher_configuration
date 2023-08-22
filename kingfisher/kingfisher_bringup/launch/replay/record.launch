@@ -1,0 +1,14 @@
+<launch>
+
+  <arg name="bagf"/>
+  <arg name="topic" default=""/>
+
+  <group if="$(eval namespace == '')">
+    <node pkg="rosbag" type="record" name="recorder" ns="replay" args="-a -O /home/kingfisher/logs/$(arg bagf)"/>
+  </group>
+
+  <group unless="$(eval namespace == '')">
+    <node pkg="rosbag" type="record" name="recorder" ns="replay" args="$(arg topic) -O /home/kingfisher/logs/$(arg bagf)"/>
+  </group>
+
+</launch>

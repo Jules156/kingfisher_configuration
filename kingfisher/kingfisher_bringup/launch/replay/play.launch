@@ -1,0 +1,11 @@
+<launch>
+
+    <arg name="bagf"/>
+    <arg name="topin"/>
+    <arg name="topout" default="topic"/>
+
+    <node pkg="rosbag" type="play" name="player" ns="replay" args="-l --bags=/home/kingfisher/logs/$(arg bagf)">
+        <remap from="$(arg topin)" to="$(arg topout)"/>
+    </node>
+
+</launch>
