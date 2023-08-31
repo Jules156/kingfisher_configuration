@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../kingfisher_configuration/kingfisher"
+		},
+		{
+			"path": "heron_robot"
+		},
+		{
+			"path": "../kingfisher_configuration/network"
+		}
+	]
+}
